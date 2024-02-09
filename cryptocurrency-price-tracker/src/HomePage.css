@@ -1,0 +1,39 @@
+/* HomePage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #03001e; /* Even darker background color */
+    color: rgb(0, 0, 0);
+  }
+  
+  .home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-container {
+    background-color: white;
+    padding: 150px; /* Further increased padding for a larger window */
+    border-radius: 16px; /* Further increased border radius */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4); /* Further increased box-shadow */
+    text-align: center;
+    max-width: 1000px;
+    width: 90%;
+  }
+  
+
+  .content-container h2 {
+    color: black; /* Set font color to black */
+  }
+  
+  .content-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .content-container li {
+    margin-bottom: 10px;
+  }
