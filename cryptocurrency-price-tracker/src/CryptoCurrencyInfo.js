@@ -17,7 +17,7 @@ const CryptoCurrencyInfo = () => {
         const newData = currencies.map(currency => ({
           currency,
           data: cryptocurrencies.map(crypto => ({
-            name: crypto,
+            name: crypto.charAt(0).toUpperCase() + crypto.slice(1),
             price: response.data[crypto][currency]
           }))
         }));
