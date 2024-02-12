@@ -33,7 +33,7 @@ const CryptoCurrencyInfo = () => {
 
   return (
     <div>
-      <h2>Crypto Currency Information</h2>
+      <h2>Crypto Currency Prices</h2>
       {cryptoData.length > 0 && (
         <table>
           <thead>
